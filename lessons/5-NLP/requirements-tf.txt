@@ -11,3 +11,4 @@ TensorFlow
 TensorFlow_datasets
 TensorFlow_text
 transformers==4.3.3
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
