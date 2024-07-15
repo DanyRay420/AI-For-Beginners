@@ -11,3 +11,4 @@ TensorFlow
 TensorFlow_datasets
 TensorFlow_text
 transformers==4.3.3
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
