@@ -2,14 +2,18 @@ gensim==3.8.3
 huggingface==0.0.1
 matplotlib
 nltk==3.5
-numpy==1.22.0
-opencv-python==4.5.1.48
-Pillow==7.1.2
+numpy==1.22.2
+opencv-python==4.8.1.78
+Pillow==10.3.0
 scikit-learn
 scipy
-torch==1.8.1
+torch==2.2.0
 torchaudio==0.8.1
 torchinfo==0.0.8
-torchtext==0.9.1
+torchtext==0.10.0
 torchvision==0.9.1
-transformers==4.3.3
+transformers==4.48.0
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
