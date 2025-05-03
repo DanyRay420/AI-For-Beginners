@@ -19,4 +19,5 @@ tensorboard==2.8.0
 tokenizers==0.10.3
 torchinfo==0.0.8
 tqdm==4.62.3
-transformers==4.3.3
+transformers==4.50.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
