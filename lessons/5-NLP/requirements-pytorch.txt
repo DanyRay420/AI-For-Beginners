@@ -12,4 +12,5 @@ torchaudio==0.8.1
 torchinfo==0.0.8
 torchtext==0.9.1
 torchvision==0.9.1
-transformers==4.3.3
+transformers==4.52.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
