@@ -19,4 +19,6 @@ tensorboard==2.8.0
 tokenizers==0.10.3
 torchinfo==0.0.8
 tqdm==4.62.3
-transformers==4.3.3
+transformers==4.52.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
