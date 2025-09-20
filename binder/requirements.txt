@@ -2,7 +2,7 @@ gensim==3.8.3
 gym==0.23.1
 huggingface==0.0.1
 imageio==2.16.2
-keras==2.8.0
+keras==3.11.3
 nltk==3.6.6
 pandas==1.4.2
 pillow==9.1.1
@@ -19,4 +19,4 @@ tensorboard==2.8.0
 tokenizers==0.10.3
 torchinfo==0.0.8
 tqdm==4.62.3
-transformers==4.3.3
+transformers==4.53.0
