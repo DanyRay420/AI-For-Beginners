@@ -13,3 +13,4 @@ torchinfo==0.0.8
 torchtext==0.9.1
 torchvision==0.9.1
 transformers==4.3.3
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
